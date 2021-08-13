@@ -1,0 +1,96 @@
+header {
+    padding: 15px;
+    text-align: center;
+    background-color: cornflowerblue;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    }
+  
+  body {
+    background-color: aliceblue;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+  }
+
+  article {
+    max-height:auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 20px;
+    max-width: 800px;
+    background-color: rgb(219, 231, 241);
+    display: flex;
+    justify-content:space-around;
+
+  }
+
+  .reflect_main {
+    max-height:auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 20px;
+    max-width: 800px;
+    background-color: rgb(220, 241, 219);
+    display:flexbox;
+    justify-content:left;
+
+  }
+  
+#addQuestionButton {
+    color: White;
+    background-color: DarkCyan;
+    border-color: White;
+    height: 50px;
+    width: 200px;
+    font-weight: bold;
+    font-size: 120%;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+  }
+  
+  #addQuestionButton:hover {
+    background-color: Khaki;
+    color: Black
+  }
+  
+  #addQuestionButton[disabled] {
+    color: grey;
+    background-color: silver;
+  }
+  
+  #startQuizButton {
+    color: white;
+    background-color: indianRed;
+    border-color: white;
+    height: 50px;
+    width: 200px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-weight: bold;
+    font-size: 120%
+  }
+  
+  #startQuizButton:hover {
+    color: black;
+    background-color: powderBlue;
+  }
+  
+  #startQuizButton[disabled] {
+    color: grey;
+    background-color: silver;
+  }
+  
+  .checkButton {
+    background-color: cornflowerblue;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: White;
+    border-color: White;
+    height: 50px;
+    width: 200px;
+    font-size: 120%;
+  }
+  
+  .checkButton:hover {
+    color: black;
+    background-color: Khaki;
+  }
